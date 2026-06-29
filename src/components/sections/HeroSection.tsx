@@ -1,7 +1,8 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail, ArrowDown } from "lucide-react";
+import { Mail, ArrowDown } from "lucide-react";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { profile } from "@/data/portfolio";
 
 export default function HeroSection() {
@@ -82,7 +83,7 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
           >
-            <Github size={20} />
+            <FaGithub size={20} />
           </a>
           
           <a
@@ -91,7 +92,7 @@ export default function HeroSection() {
             rel="noopener noreferrer"
             className="text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
           >
-            <Linkedin size={20} />
+            <FaLinkedin size={20} />
           </a>
           
           <a
